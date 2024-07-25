@@ -37,7 +37,7 @@
                 return;
             }
 
-            var scriptUrl = 'https://script.google.com/macros/s/AKfycbyYbF3UngA5Qzi69cNWFl2XOs9Lk6WURBnaQ5sNdcEQ9pPAJ5JaYaIEwjXJImkvVCI/exec';
+            var scriptUrl = 'https://script.google.com/macros/s/AKfycbyUZB4V118BYT1llQDTel0rY8m9wQtARbc-rwihn9bSi0sb3AJ4lDb00WAOh_qC9IpD/exec';
             fetch(`${scriptUrl}?orderNumber=${orderNumber}`)
                 .then(response => response.json())
                 .then(data => {
